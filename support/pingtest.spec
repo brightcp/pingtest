@@ -16,7 +16,7 @@ This package will ping multiple servers at once.
 %prep
 rm -rf %{buildroot} 
 mkdir -p %{buildroot}/bin
-cp %{_topdir}/SOURCES/ping_test %{buildroot}/bin/
+cp %{_topdir}/SOURCES/pingtest %{buildroot}/bin/
 
 %files
 /bin/pingtest
